@@ -6,13 +6,12 @@ h2 {
 }
 
 body {
-  text-decoration: none;
   color : lightslategray;
   background-color : whitesmoke;
   font-family: 'Montserrat', sans-serif;
   font-family: 'Noto Sans', sans-serif;
   font-family: 'Roboto Condensed', sans-serif;
-  font-size: 20px ;
+  font-size: 20px;
 }
 p {
   color : lightslategray;
@@ -28,7 +27,7 @@ a:hover {
   text-decoration: none;
   background-color: #ee9ca7;
   border-radius: 10px;
-  color: #e7d1e2;
+  color: #5d4658;
   text-align: center;
   font-size: 20px;
   padding: 10px;
@@ -82,5 +81,3 @@ a {
     width: 500px;
   }
 }
-
-
