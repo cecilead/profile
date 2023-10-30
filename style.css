@@ -1,0 +1,86 @@
+h1 {
+  color : rosybrown;
+}
+h2 {
+  color: rgb(106, 75, 75);
+}
+
+body {
+  text-decoration: none;
+  color : lightslategray;
+  background-color : whitesmoke;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px ;
+}
+p {
+  color : lightslategray;
+}
+a {
+  color: rgb(120, 88, 120);
+}
+a:hover {
+  background-color: rgb(228, 91, 134);
+}
+
+.button{
+  text-decoration: none;
+  background-color: #ee9ca7;
+  border-radius: 10px;
+  color: #e7d1e2;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+  width: 150px;
+}
+#background-degrade{
+  background: #ee9ca7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#img-circle {
+  border-radius: 50%;
+  width: 250px;
+  border: 1px solid rgb(245, 235, 237);
+}
+
+#img-rounded {
+  border-radius: 50px;
+  object-fit: cover;
+  width: 100px;
+}
+.container {
+    text-align: center;
+    width: 500px;   /* Définit la largeur */
+    margin: 10px auto; /* Définit automatiquement les marges à gauche/droite */
+}
+
+.card {
+  background: rgb(252, 240, 240);
+  padding: 10px;
+  border: 1px solid rgb(250, 216, 216);
+  box-shadow: 1px 1px 1px rgb(250, 216, 216);
+  border-radius: 15px;
+}
+
+a {
+  font-size: 20px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+
